@@ -39,11 +39,12 @@ AI-Tools-Assignment/
 
 ## 🎥 Presentation
 
-A 3-minute video summarizing the approach, key findings, and ethical insights is included (`AI_Tools_Assignment_Video.mp4`).
+A 3-minute video summarizing the approach, key findings, and ethical insights is included (`aitool.mp4`).
 
 ---
 
 ## 🧩 Author
 
 **Abemelek Samson Abduke**
+
 Date: October 2025
