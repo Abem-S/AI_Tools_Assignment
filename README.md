@@ -1,4 +1,4 @@
-# AI Tools Assignment – Abemelek Samson Abduke
+# AI Tools Assignment
 
 This repository contains my submission for the **AI Tools Assignment**, showcasing theoretical understanding, practical implementation, and ethical reflection using modern AI frameworks.
 
@@ -13,38 +13,78 @@ AI-Tools-Assignment/
 ├── Task2_TensorFlow.ipynb         # Deep Learning (MNIST CNN model)
 ├── Task3_SpaCy.ipynb              # NLP (Named Entity Recognition + Sentiment)
 │
-├── aitool.pdf # Full report (theory, outputs, ethics)
-└── aitool.mp4  # 3-minute presentation video
+└── aitool.pdf # Full report (theory, outputs, ethics)
 ```
 
 ---
 
 ## 🧠 Overview
 
-* **Task 1:** Built a Decision Tree classifier using Scikit-learn to predict iris species.
-* **Task 2:** Trained a Convolutional Neural Network (CNN) on the MNIST dataset using TensorFlow.
-* **Task 3:** Used spaCy for Named Entity Recognition and sentiment analysis on Amazon product reviews.
-* **Ethics Section:** Discussed potential model biases and fairness considerations.
+This project explores three major areas of AI using popular frameworks:
+
+### **Task 1: Classical ML with Scikit-learn**
+- Built a **Decision Tree classifier** on the Iris dataset to predict flower species.
+- Inspected and preprocessed the dataset.
+- Split data into training and test sets (80/20).
+- Evaluated using **accuracy, precision, and recall**.
+- Achieved perfect classification, showing the effectiveness of decision trees on small structured datasets.
+
+### **Task 2: Deep Learning with TensorFlow**
+- Developed a **Convolutional Neural Network (CNN)** for handwritten digit recognition (MNIST dataset).
+- Model includes convolutional layers, max pooling, flattening, and dense layers with softmax output.
+- Normalized images and trained with **Adam optimizer** and **sparse categorical cross-entropy loss**.
+- Achieved >95% test accuracy and visualized predictions on 5 sample images.
+
+### **Task 3: NLP with spaCy**
+- Performed **Named Entity Recognition (NER)** and **rule-based sentiment analysis** on Amazon product reviews.
+- Extracted entities like product names and brands.
+- Analyzed sentiment (positive/negative) using word-based rules.
+- Demonstrated how NLP can extract insights from unstructured text.
+
+---
+
+## ⚖️ Ethics & Optimization
+
+- **Potential Biases:**  
+  - MNIST: Different handwriting styles or digit distributions could skew model accuracy.  
+  - Amazon Reviews: Limited to English reviews and certain brands, potentially affecting sentiment results.  
+
+- **Mitigation Strategies:**  
+  - **TensorFlow Fairness Indicators:** Identify bias across subgroups (handwriting styles, digit types) and adjust training.  
+  - **spaCy Rule-Based Checks:** Ensure consistent entity extraction and reduce mislabeling for uncommon brands.  
+
+- **Troubleshooting Notes:**  
+  - Common issues include shape mismatches and incorrect loss functions.  
+  - Debugging involves checking tensor dimensions, loss function compatibility, and layer output shapes.
 
 ---
 
 ## ⚙️ Tools & Libraries
 
-* **Frameworks:** TensorFlow, PyTorch, Scikit-learn, spaCy
-* **Environment:** Google Colab / Jupyter Notebook
-* **Languages:** Python
-* **Dataset Sources:** Iris Dataset, MNIST, Amazon Product Reviews
+- **Frameworks:** TensorFlow, PyTorch, Scikit-learn, spaCy  
+- **Environment:** Google Colab / Jupyter Notebook  
+- **Language:** Python  
+- **Datasets:** Iris Dataset, MNIST, Amazon Product Reviews  
 
 ---
 
-## 🎥 Presentation
+## 🎥 Presentation Video
 
-A 3-minute video summarizing the approach, key findings, and ethical insights is included (`aitool.mp4`).
+Watch the 3-minute project explanation video here:  
+👉 [**AI Tools Assignment Presentation (Google Drive Link)**](https://drive.google.com/file/d/1OQiCBPaFrkJQ5NOLl3p-zyZEiDrqurVb/view?usp=sharing)
+
+---
+
+## 📄 PDF Report
+
+The report (`aitool.pdf`) contains:  
+- Answers to theoretical questions  
+- Screenshots of model outputs for each task  
+- Ethical reflection and troubleshooting notes  
 
 ---
 
 ## 🧩 Author
 
-**Abemelek Samson Abduke**
+**Abemelek Samson Abduke**  
 
-Date: October 2025
